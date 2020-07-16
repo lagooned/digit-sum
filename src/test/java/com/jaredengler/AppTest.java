@@ -34,8 +34,8 @@ public class AppTest extends TestCase {
     }
 
     public void testReducedDigitSum() {
-        final Integer expected = 3;
-        final Integer actual = digitSummer.reducedDigitSum(Arrays.asList("1", "1", "1"));
+        final Integer expected = 2;
+        final Integer actual = digitSummer.reducedDigitSum(Arrays.asList("1", "1", "9"));
         assertEquals(expected, actual);
     }
 
