@@ -21,7 +21,7 @@ public class DigitSummer {
 
     Integer reducedPartialSum(final List<String> chars) {
         final Integer partialSum = chars.stream()
-            .map(Integer::valueOf)
+            .map(c -> Integer.valueOf(c))
             .reduce(0, (acc, next) -> acc + next);
         return partialSum;
     }
