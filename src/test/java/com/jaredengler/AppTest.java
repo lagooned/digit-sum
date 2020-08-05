@@ -29,13 +29,13 @@ public class AppTest extends TestCase {
 
     public void testReducedPartialSum() {
         final Integer expected = 2;
-        final Integer actual = digitSummer.reducedPartialSum(Arrays.asList("1", "1"));
+        final Integer actual = digitSummer.digitalSum(Arrays.asList("1", "1"));
         assertEquals(expected, actual);
     }
 
     public void testReducedDigitSum() {
         final Integer expected = 2;
-        final Integer actual = digitSummer.reducedDigitSum(Arrays.asList("1", "1", "9"));
+        final Integer actual = digitSummer.reducedDigitalSum(Arrays.asList("1", "1", "9"));
         assertEquals(expected, actual);
     }
 
